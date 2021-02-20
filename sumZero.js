@@ -5,7 +5,7 @@
 // a) Array contains only INTEGERS
 // b) Array is ALWAYS SORTED (i.e. we can assume that the array is sorted)
 
-// NAIVE SOLUTIOM : O(N^2) time algorrithm using nested loops and all pairwise comparison.
+// NAIVE SOLUTION : O(N^2) time algorrithm using nested loops and all pairwise comparison.
 
 // function sumZero(arr) {
 //   for (let i = 0; i < arr.length; i++) {
