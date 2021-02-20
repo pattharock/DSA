@@ -6,7 +6,7 @@
 
 // 1. All inputs are single words, i.e. there will be NO SPACES.
 // 2. Uppercase & Lowercase are considered the same i.e. COMPARISON IS CASE INSENSITIVE
-// 3. Onyl alpohabetical inputs are considered i.e. NO SPECIAL CHARACTERS, NUMBERS
+// 3. Only alphabetical inputs are considered i.e. NO SPECIAL CHARACTERS, NUMBERS
 function validAnagram(str1, str2){
   //  if we count the frequency of each letter, and compare the objects, their respective counts will be equal.
   
