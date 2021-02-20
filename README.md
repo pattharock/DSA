@@ -1,2 +1,2 @@
 # DSA
-Solutions to a few of the proeblems from "Cracking the Coding Interview" by Gayle Laakmann Mcdowell
+Solutions to a few of the problems from the book "Cracking the Coding Interview" by Gayle Laakmann Mcdowell
