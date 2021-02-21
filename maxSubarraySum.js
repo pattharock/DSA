@@ -1,4 +1,4 @@
-// take an arrray of integers & a number n as input, return the maximum sum of n consecutive numbers i nthe array
+// take an arrray of integers & a number n as input, return the maximum sum of n consecutive numbers in the array
 
 // NAIVE SOLUTION : O(N^2)
 // function maxSubarraySum(arr, n) {
