@@ -1,5 +1,7 @@
 // given 2 positive integers, find out if the two numbers have the same frequency of digits.
 
+
+// Time Complexity : O(n)
 function sameFrequency(num1, num2) {
   // let nums1 = [];
   // while (num1 % 10 >= 1) {
