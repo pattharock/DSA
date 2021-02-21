@@ -3,12 +3,6 @@
 
 // Time Complexity : O(n)
 function sameFrequency(num1, num2) {
-  // let nums1 = [];
-  // while (num1 % 10 >= 1) {
-  //   num1 /= 10;
-  //   nums1.push(Math.floor(num1 % 10));
-  // }
-  // console.log(nums1);
   let freq = {};
   let nums1 = num1.toString();
   let nums2 = num2.toString();
