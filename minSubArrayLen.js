@@ -24,6 +24,7 @@ function minSubArrayLen(arr, n) {
   return minLen === Infinity ? 0 : minLen;
 }
 
+// TESTCASES
 console.log(minSubArrayLen([2, 3, 1, 2, 4, 3], 7)); // expected: 2 since [4, 3]
 console.log(minSubArrayLen([2, 1, 6, 5, 4], 9)); // expected: 2 since [5, 4]
 console.log(minSubArrayLen([3, 1, 7, 11, 2, 9, 8, 21, 62, 33, 19], 52)); // expected: 1 since [62]
