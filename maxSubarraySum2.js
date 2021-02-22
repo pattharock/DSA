@@ -1,6 +1,5 @@
 // given an array of integers and a number, find the maximum sum of a subarray (i.e. consecutive elements) of the passed in length.
 
-
 // O(N) time & O(1) space
 function maxSubarraySum(arr, n) {
   if (n > arr.length) {
