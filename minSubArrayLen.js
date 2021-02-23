@@ -1,6 +1,8 @@
 //  accept an array of positve integers and a positive integer, return the minimum length of the contiguos subarray
 // for which the sum is greater than or equal to rhe integer passed to the function, return zero if none
 
+
+// O(N) time & O(1) space
 function minSubArrayLen(arr, n) {
   let left = 0;
   let right = 0;
