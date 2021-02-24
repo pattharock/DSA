@@ -1,7 +1,7 @@
 // given an array, declare a recursive function to return all the odd values in the array.
 
 // O(n) solution using HELPER METHOD RECURSION
-function collectOddValues(arr) {
+function collectOddValuesHelperRecursion(arr) {
   let result = [];
 
   function helper(helperInput) {
@@ -21,4 +21,4 @@ function collectOddValues(arr) {
 }
 
 // TESTCASES
-console.log(collectOddValues([1, 2, 3, 4, 5, 6, 7, 8, 9]));
+console.log(collectOddValuesHelperRecursion([1, 2, 3, 4, 5, 6, 7, 8, 9]));
