@@ -1,4 +1,4 @@
-// given an array, declare a recursive function to return all the odd values in the array.
+// given an array, declare a recursive function to return all the odd values in the array. Use helper method recursion
 
 // O(n) solution using HELPER METHOD RECURSION
 function collectOddValuesHelperRecursion(arr) {
@@ -21,4 +21,4 @@ function collectOddValuesHelperRecursion(arr) {
 }
 
 // TESTCASES
-console.log(collectOddValuesHelperRecursion([1, 2, 3, 4, 5, 6, 7, 8, 9]));
+console.log(collectOddValuesHelperRecursion([1, 2, 3, 4, 5, 6, 7, 8, 9])); // expected : [1, 3, 5 7, 8]
