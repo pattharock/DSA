@@ -1,4 +1,6 @@
 // given an array, declare a recursive function to return all the odd values in the array.
+
+// O(n) solution using HELPER METHOD RECURSION
 function collectOddValues(arr) {
   let result = [];
 
