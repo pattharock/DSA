@@ -2,6 +2,7 @@
 
 const isOdd = (val) => val % 2 === 1;
 
+// O(n) time
 function someRecursive(arr, func) {
   if (arr.length === 0) {
     return false;

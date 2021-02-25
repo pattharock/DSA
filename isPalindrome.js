@@ -1,5 +1,6 @@
 // accept a string and return whether it a palindrome or not
 
+// O(n) time
 function isPalindrome(str) {
   if (str.length <= 1) {
     return true;
