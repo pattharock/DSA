@@ -1,5 +1,7 @@
 // accept an array and a value, return the index at which the values occurs in thte  array, -1 otherwise
 
+
+// O(1) best case, O(n) worst and average case.
 function linearSearch(arr, val) {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === val) {
