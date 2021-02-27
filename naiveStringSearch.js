@@ -24,4 +24,4 @@ function naiveStringSearch(str1, str2) {
 // TESTCASES
 console.log(naiveStringSearch("wowomgzomg", "omg")); // expected: 2
 console.log(naiveStringSearch("lorie loled", "lol")); // expected: 1
-console.log(naiveStringSearch("AABAACAADAABAABA", "AABA")); // expected: 1
+console.log(naiveStringSearch("AABAACAADAABAABA", "AABA")); // expected: 3
