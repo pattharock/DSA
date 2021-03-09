@@ -2,19 +2,30 @@
 
 // O(N + M) time
 function merge(arr1, arr2) {
-  let mergedArr = [];
-  let ind1 = 0;
-  let ind2 = 0;
-  while (ind1 < arr1.length || ind2 < arr2.length) {
-    if (arr1[ind1] < arr2[ind2]) {
-      mergedArr.push(arr1[ind1++]);
+  let results = [];
+  let i = 0;
+  let j = 0;
+  while (i < arr1.length && j < arr2.length) {
+    if (arr2[j] > arr1[i]) {
+      results.push(arr1[i]);
+      i++;
     } else {
-      mergedArr.push(arr2[ind2++]);
+      results.push(arr2[j]);
+      j++;
     }
   }
-  return mergedArr;
+  while (i < arr1.length) {
+    results.push(arr1[i]);
+    i++;
+  }
+  while (j < arr2.length) {
+    results.push(arr2[j]);
+    j++;
+  }
+  return results;
 }
 
 // TESTCASES
 console.log(merge([1, 10, 50], [2, 14, 99, 100])); // Expected: [1, 2, 10, 14, 50, 99, 100]
-
+console.log(merge([1, 3, 5, 7], [2, 4, 6, 8])); // Expected: [1, 2, 3, 4, 5, 6, 7, 8]
+console.log(merge([], [2, 4, 6, 8])); // Expected: [2, 4, 6, 8]
